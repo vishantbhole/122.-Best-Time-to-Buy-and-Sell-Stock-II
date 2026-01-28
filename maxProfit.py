@@ -12,3 +12,5 @@ class Solution:
         return profit
 if __name__ == "__main__":
     sol = Solution()
+    prices = [7,1,5,3,6,4]
+    print("Output is : ", sol.maxProfit(prices))
